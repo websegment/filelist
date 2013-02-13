@@ -31,7 +31,6 @@ foreach my $file(@filelist){
 	$filepath =~ s/\:/\\:/ig;
 	$filepath =~ s/\*/\\*/ig;
 	$filepath =~ s/\?/\\?/ig;
-	$filepath =~ s/$/\$/ig;
 	$filepath =~ s/\&/\\&/ig;
 	$filepath =~ s/\!/\\!/ig;
 
